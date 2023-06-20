@@ -140,81 +140,81 @@ p .small{
     padding-bottom: 24px;
     border-bottom: 1px solid var(--accent-color-pressed);
     color: var(--dark);
-  }
-  /* ==== LOGO === */
-  .logo {
+}
+/* ==== LOGO === */
+.logo{
     font-family: var(--secondary-font-family-family);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
     display: flex;
     color: var(--primary-brand);
-  }
-  .logo-accent span{
+}
+.logo-accent{
     color: var(--dark);
-  }
-  /* ==== MENU === */
-  .page-navigation-menu{
+}
+/* ==== MENU === */
+.page-navigation-menu{
     display: flex;
     align-items: center;
     margin-right: 76px;
-  }
-  .menu-list{
+}
+.menu-list{
     display: flex;
     column-gap: 40px;
-  }
-  .menu-item{
+}
+.menu-link{
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-  }
-  /* ==== CONTACT ===
-  .page-contact{
-    font-family: var(--main-font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-  } */
-  .contact-item a{
-    font-family: var(--main-font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-  }
-  .menu-link a{
     color: var(--dark);
     text-decoration:none;
-  }
-  .contact-item a:hover,
-    .contact-item a:focus{
+}
+.menu-link:hover,
+.menu-link:focus{
     color: var(--accent-color-pressed-state);
-  }
+}
+/* ==== CONTACT ===
+.page-contact{
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}*/
+address{
+    font-style: normal;
+}
+.contact-item a{
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
   .contact-list{
     display: flex;
     justify-content: space-between;
-  }
-  .e-mail{
+}
+.e-mail{
     margin-left: auto;
     margin-right: 40px;
-  }
+}
   .contact-item:hover,
   .contact-item:focus{
     color: var(--accent-color-pressed-state);
-  }
+}
 /* ================= MAIN ================= */
 /* ================= SECTION-1 ================= */
 .heder-title{

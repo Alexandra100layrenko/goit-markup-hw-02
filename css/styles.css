@@ -143,19 +143,19 @@ p .small{
   color: var(--dark);
 }
 /* ==== LOGO === */
-.logo {
+.logo{
   font-family: var(--secondary-font-family-family);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
   display: flex;
   color: var(--primary-brand);
 }
-.logo-accent span{
+.logo-accent{
   color: var(--dark);
 }
 /* ==== MENU === */
@@ -168,14 +168,19 @@ p .small{
   display: flex;
   column-gap: 40px;
 }
-.menu-item{
+.menu-link{
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--dark);
+  text-decoration:none;
+}
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--accent-color-pressed-state);
 }
 /* ==== CONTACT ===
 .page-contact{
@@ -187,6 +192,9 @@ p .small{
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 } */
+address{
+  font-style: normal;
+}
 .contact-item a{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -195,14 +203,6 @@ p .small{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
-.menu-link a{
-  color: var(--dark);
-  text-decoration:none;
-}
-.contact-item a:hover,
-  .contact-item a:focus{
-  color: var(--accent-color-pressed-state);
 }
 .contact-list{
   display: flex;
