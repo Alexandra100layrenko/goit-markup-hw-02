@@ -266,7 +266,7 @@ p .small{
 }
 /* ==== /BUTTON === */
 /* ================= SECTION-2 ================= */
-.description-benefits p{
+.description-benefits{
   color: var(--primary-text-color);
 }
 /* ================= SECTION-3 ================= */
@@ -278,7 +278,7 @@ p .small{
 .card-employee-item{
   background-color: #FFFFFF;
 }
-.card-employee-descriptions p{
+.card-employee-descriptions{
   font-size: 16px;
   color: var(--primary-text-color);
   line-height: 1.5;
