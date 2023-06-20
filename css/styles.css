@@ -299,6 +299,6 @@ address{
 .logo-accent-footer{
   color: #f4f4fd;
 }
-.footer-descriptions p{
+.footer-descriptions{
   color: var(--light);
 }
