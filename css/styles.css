@@ -177,7 +177,7 @@ p .small{
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
-/* ==== CONTACT === */
+/* ==== CONTACT ===
 .page-contact{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -186,6 +186,23 @@ p .small{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+} */
+.contact-item a{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.menu-link a{
+  color: var(--dark);
+  text-decoration:none;
+}
+.contact-item a:hover,
+  .contact-item a:focus{
+  color: var(--accent-color-pressed-state);
 }
 .contact-list{
   display: flex;
