@@ -140,9 +140,9 @@ p .small{
     padding-bottom: 24px;
     border-bottom: 1px solid var(--accent-color-pressed);
     color: var(--dark);
-}
-/* ==== LOGO === */
-.logo a{
+  }
+  /* ==== LOGO === */
+  .logo {
     font-family: var(--secondary-font-family-family);
     font-style: normal;
     font-weight: 800;
@@ -153,21 +153,21 @@ p .small{
     margin-right: 76px;
     display: flex;
     color: var(--primary-brand);
-}
-.logo-accent span{
+  }
+  .logo-accent span{
     color: var(--dark);
-}
-/* ==== MENU === */
-.page-navigation-menu{
+  }
+  /* ==== MENU === */
+  .page-navigation-menu{
     display: flex;
     align-items: center;
     margin-right: 76px;
-}
-.menu-list{
+  }
+  .menu-list{
     display: flex;
     column-gap: 40px;
-}
-.menu-item{
+  }
+  .menu-item{
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
@@ -175,18 +175,18 @@ p .small{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
-/* ==== CONTACT ===
-.page-contact{
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-} */
-.contact-item a{
+  }
+  /* ==== CONTACT ===
+  .page-contact{
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  } */
+  .contact-item a{
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
@@ -244,7 +244,7 @@ p .small{
     letter-spacing: 0.02em;
     color: var(--dark);
 }
-.cards-product-descriptions p{
+.cards-product-descriptions{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
