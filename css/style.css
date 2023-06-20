@@ -1,0 +1,288 @@
+:root{
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family-family: 'Raleway', sans-serif;
+  --primary-brand : #4D5AE5;
+  --primary-color-white: #ffffff;
+  --primary-text-color: #434455;
+  --subtle-text: #8E8F99;
+  --accent-color-pressed-state: #404BBF;
+  --accent-color-pressed: #E7E9FC;
+  --modal-background: #FCFCFC;
+  --success: #31D0AA;
+  --light: #F4F4FD;
+  --dark: #2E2F42;
+}
+.link{
+  text-decoration: none;
+}
+.list{
+
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+button{
+  cursor: pointer;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+/*================== CONTAINER ================*/
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section{
+  margin-bottom: 120px;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-color-white);
+}
+h1{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-white);
+  margin-bottom: 48px;
+}
+h2{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+h3{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+p{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+p .medium{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+p .small{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--dark);
+}
+.link a{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+}
+
+/* ================= HEADER ================= */
+.page-header{
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--accent-color-pressed);
+  color: var(--dark);
+}
+/* ==== LOGO === */
+.logo a{
+  font-family: var(--secondary-font-family-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: flex;
+  color: var(--primary-brand);
+}
+.logo-accent span{
+  color: var(--dark);
+}
+/* ==== MENU === */
+.page-navigation-menu{
+  display: flex;
+  align-items: center;
+  margin-right: 76px;
+}
+.menu-list{
+  display: flex;
+  column-gap: 40px;
+}
+.menu-item{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+/* ==== CONTACT === */
+.page-contact{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contact-list{
+  display: flex;
+  justify-content: space-between;
+}
+.e-mail{
+  margin-left: auto;
+  margin-right: 40px;
+}
+.contact-item:hover,
+.contact-item:focus{
+  color: var(--accent-color-pressed-state);
+}
+/* ================= MAIN ================= */
+/* ================= SECTION-1-BANNER ================= */
+.image-bg{
+  display: block;
+  background-color: var(--dark);
+  background-image: linear-gradient(rgba(47, 46, 66, 70%), rgba(47, 46, 66, 70%)), url(../images/people-office-banner.jpg);
+  width: 1440px;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.heder-title{
+  max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* ==== BUTTON === */
+.btn{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-color-white);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 28px;
+  border: none;
+  border-color: var(--primary-brand);
+  border-radius: 4px;
+  background-color: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.btn:hover,
+.btn:active,
+.btn:focus{
+  background-color: #404BBF;
+}
+/* ==== /BUTTON === */
+/* ================= SECTION-2 ================= */
+.description-benefits p{
+  color: var(--primary-text-color);
+}
+/* ================= SECTION-3 ================= */
+
+/* ================= SECTION-4 ================= */
+.card-employee{
+  background-color: #F4F4FD
+}
+.card-employee-item{
+  background-color: #FFFFFF;
+}
+.card-employee-descriptions p{
+  font-size: 16px;
+  color: var(--primary-text-color);
+  line-height: 1.5;
+}
+/* ================= FOOTER ================= */
+.footer-bg{
+  background-color: #2E2F42;
+}
+.logo-footer{
+   font-family: "Raleway", sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--primary-brand);
+}
+.logo-accent-footer{
+  color: #f4f4fd;
+}
+.footer-descriptions p{
+  color: var(--light);
+}
