@@ -194,7 +194,7 @@ p .small{
 address{
     font-style: normal;
 }
-.contact-item a{
+.force{
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
@@ -203,7 +203,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-  .contact-list{
+.contact-list{
     display: flex;
     justify-content: space-between;
 }
@@ -211,8 +211,8 @@ address{
     margin-left: auto;
     margin-right: 40px;
 }
-  .contact-item:hover,
-  .contact-item:focus{
+.force:hover,
+.force:focus{
     color: var(--accent-color-pressed-state);
 }
 /* ================= MAIN ================= */
