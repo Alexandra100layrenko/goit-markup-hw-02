@@ -173,8 +173,6 @@ address{
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-
-
 .force:hover,
 .force:focus{
   color: var(--accent-color-pressed-state);
@@ -184,7 +182,6 @@ address{
 .image-bg{
   background-color: var(--dark);
   background-image: linear-gradient(rgba(47, 46, 66, 70%), rgba(47, 46, 66, 70%)), url(../images/people-office-banner.jpg);
-  text-align: center;
   color: white;
 }
 /* ==== BUTTON === */
