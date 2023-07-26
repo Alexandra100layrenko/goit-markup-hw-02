@@ -34,11 +34,12 @@ body{
   color: var(--primary-text-color);
   background-color: var(--primary-color-white);
 }
-.heder-titel{
+.heder-titel h1{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-color-white);
 }
@@ -47,6 +48,7 @@ body{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
