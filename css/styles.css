@@ -34,26 +34,24 @@ body{
   color: var(--primary-text-color);
   background-color: var(--primary-color-white);
 }
-h1{
+.heder-titel{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--primary-color-white);
 }
-h2{
+.sub-titel{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: var(--dark);
 }
-h3{
+.text-options{
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
@@ -61,7 +59,7 @@ h3{
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-p{
+.text-descriptions{
   font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 1.5;
