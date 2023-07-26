@@ -43,7 +43,7 @@ body{
   letter-spacing: 0.02em;
   color: var(--primary-color-white);
 }
-.sub-titel{
+.sub-titel h2{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
