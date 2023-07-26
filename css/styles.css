@@ -34,7 +34,7 @@ body{
   color: var(--primary-text-color);
   background-color: var(--primary-color-white);
 }
-.heder-titel h1{
+h1{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 56px;
@@ -43,7 +43,7 @@ body{
   letter-spacing: 0.02em;
   color: var(--primary-color-white);
 }
-.sub-titel h2{
+h2{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
@@ -53,7 +53,7 @@ body{
   text-transform: capitalize;
   color: var(--dark);
 }
-.text-options{
+h3{
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
@@ -61,7 +61,7 @@ body{
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.text-descriptions{
+p{
   font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 1.5;
